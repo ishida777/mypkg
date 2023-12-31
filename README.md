@@ -2,7 +2,7 @@
 
 ロボットシステム学講義用
 
-[![test]((https://github.com/ishida777/mypkg/actions/workflows/test.yml/badge.svg)]
+[![test](https://github.com/ishida777/mypkg/actions/workflows/test.yml/badge.svg)]
 
 # リポジトリに含まれるプログラム
 talker.py
