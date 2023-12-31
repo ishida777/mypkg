@@ -15,8 +15,8 @@ setup(
     zip_safe=True,
     maintainer='shiba777',
     maintainer_email='f.leaves.y.28@gmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    description='a package for practice',
+    license='BSD-3-lause',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
