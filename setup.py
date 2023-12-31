@@ -1,6 +1,6 @@
 from setuptools import setup
 import os
-from glonb import glob
+from glob import glob
 
 package_name = 'mypkg'
 
