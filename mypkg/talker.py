@@ -18,7 +18,7 @@ def main():
     rclpy.init()
     node = Node("talker")
     talker = Talker(node)
-    rclpy.spin
+    rclpy.spin(node)
 
 if __name__ == '__main__':
     main()
