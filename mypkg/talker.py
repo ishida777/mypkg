@@ -4,21 +4,20 @@ from std_msgs.msg import Int16
 
 class Talker():
     def __init__(self,node):
-        self.pub = node.create_publisher(Int16, "countup", 10)
+        rclpy.init()
+        self.node = Node("talker")
+        self.pub = node.node_publisher(Int16, "countup", 10)
         self.n = 0
-        node.create_timer(0.5, self.cb)
+        node.node.create_timer(0.5, self.cb)
 
     def cb (self):
         msg = Int16()
         msg.data = self.n
-        talker.pub.publish(msg)
+        self.pub.publish(msg)
         self.n += 1
 
-def main():
-    rclpy.init()
-    node = Node("talker")
-    talker = Talker(node)
-    rclpy.spin(node)
-
 if __name__ =='__main__':
-    main()
+    talker = Talker()
+    rclpy.spin(talker.node)
+    talker.node.destroy_node()
+    rclpy.shutdown()
