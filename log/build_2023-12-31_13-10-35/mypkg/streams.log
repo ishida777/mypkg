@@ -1,0 +1,41 @@
+[0.917s] Invoking command in '/home/shiba777/ros2_ws/src/mypkg': PYTHONPATH=/home/shiba777/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/shiba777/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/shiba777/ros2_ws/src/mypkg/build/mypkg/build install --record /home/shiba777/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
+[1.095s] running egg_info
+[1.095s] creating build/mypkg/mypkg.egg-info
+[1.096s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[1.096s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[1.096s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[1.096s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[1.096s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[1.098s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.134s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.135s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[1.135s] running build
+[1.136s] running build_py
+[1.136s] creating /home/shiba777/ros2_ws/src/mypkg/build/mypkg/build
+[1.136s] creating /home/shiba777/ros2_ws/src/mypkg/build/mypkg/build/lib
+[1.136s] creating /home/shiba777/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.136s] copying mypkg/talker.py -> /home/shiba777/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.137s] copying mypkg/listener.py -> /home/shiba777/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.137s] copying mypkg/__init__.py -> /home/shiba777/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg
+[1.137s] running install
+[1.137s] running install_lib
+[1.138s] creating /home/shiba777/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.139s] copying /home/shiba777/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/talker.py -> /home/shiba777/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.139s] copying /home/shiba777/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/listener.py -> /home/shiba777/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.139s] copying /home/shiba777/ros2_ws/src/mypkg/build/mypkg/build/lib/mypkg/__init__.py -> /home/shiba777/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg
+[1.139s] byte-compiling /home/shiba777/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/talker.py to talker.cpython-38.pyc
+[1.141s] byte-compiling /home/shiba777/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/listener.py to listener.cpython-38.pyc
+[1.141s] byte-compiling /home/shiba777/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg/__init__.py to __init__.cpython-38.pyc
+[1.142s] running install_data
+[1.142s] creating /home/shiba777/ros2_ws/src/mypkg/install/mypkg/share/ament_index
+[1.142s] creating /home/shiba777/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index
+[1.143s] creating /home/shiba777/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[1.143s] copying resource/mypkg -> /home/shiba777/ros2_ws/src/mypkg/install/mypkg/share/ament_index/resource_index/packages
+[1.143s] copying package.xml -> /home/shiba777/ros2_ws/src/mypkg/install/mypkg/share/mypkg
+[1.143s] running install_egg_info
+[1.144s] Copying build/mypkg/mypkg.egg-info to /home/shiba777/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages/mypkg-0.0.0-py3.8.egg-info
+[1.145s] running install_scripts
+[1.167s] Installing listener script to /home/shiba777/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[1.167s] Installing talker script to /home/shiba777/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[1.167s] writing list of installed files to '/home/shiba777/ros2_ws/src/mypkg/build/mypkg/install.log'
+[1.189s] Invoked command in '/home/shiba777/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/shiba777/ros2_ws/src/mypkg/build/mypkg/prefix_override:/home/shiba777/ros2_ws/src/mypkg/install/mypkg/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/shiba777/ros2_ws/src/mypkg/build/mypkg/build install --record /home/shiba777/ros2_ws/src/mypkg/build/mypkg/install.log --install-scripts $base/lib/mypkg --single-version-externally-managed
