@@ -2,7 +2,7 @@
 
 ロボットシステム学講義用のリポジトリ
 
-[![test](https://github.com/ishida777/mypkg/actions/workflows/test.yml/badge.svg)]
+![test](https://github.com/ishida777/mypkg/actions/workflows/test.yml/badge.svg)
 
 ### talker
 実行すると0.5秒ごとに数字を足し、メッセージで結果を表示する
