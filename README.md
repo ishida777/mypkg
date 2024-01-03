@@ -5,10 +5,13 @@
 [![test](https://github.com/ishida777/mypkg/actions/workflows/test.yml/badge.svg)]
 
 ### talker
-0.5秒ごとに数字を足し、メッセージで結果を表示する
+実行すると0.5秒ごとに数字を足し、メッセージで結果を表示する
 
 ### listener
 talkerから送られてきたメッセージを出力する
+
+### launchファイル
+talkerとlilstenerを同時に実行する
 
 ### 使用方法
 ```
