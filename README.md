@@ -35,15 +35,15 @@ ros2 launch mypkg talk_listen.launch.py
 
 ## 動作環境
 ### 必要なソフトウェア
-*Python
-*テスト済み: 3.7 ~ 3.10
+* Python
+* テスト済み: 3.7 ~ 3.10
 
 ## テスト環境
-*ubuntu22.04
+* ubuntu22.04
 
 ### 著作権
-*このソフトウェアパッケージは、三条項BSDライセンスの下、再頒布>および使用が許可されます。
+* このソフトウェアパッケージは、三条項BSDライセンスの下、再頒布および使用が許可されます。
 
-*このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
-*[ryuichiueda/my_slide/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+* [ryuichiueda/my_slide/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
 * © 2023 ishida777
