@@ -13,7 +13,7 @@ talkerから送られてきたメッセージを出力する
 ### launchファイル
 talkerとlilstenerを同時に実行する
 
-### 使用方法
+## 使用方法
 ```
 ros2 launch mypkg talk_listen.launch.py
 [INFO] [launch]: All log files can be found below /home/shiba777/.ros/log/2024-01-04-01-55-29-065219-LAPTOP-R2BVUG5M-9959
@@ -32,3 +32,18 @@ ros2 launch mypkg talk_listen.launch.py
 [listener-2] [INFO] [1704300934.438806666] [listener]: Listener:9
 [listener-2] [INFO] [1704300934.938913867] [listener]: Listener:10
 ```
+
+## 動作環境
+### 必要なソフトウェア
+*Python
+*テスト済み: 3.7 ~ 3.10
+
+## テスト環境
+*ubuntu22.04
+
+### 著作権
+*このソフトウェアパッケージは、三条項BSDライセンスの下、再頒布>および使用が許可されます。
+
+*このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+*[ryuichiueda/my_slide/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+* © 2023 ishida777
