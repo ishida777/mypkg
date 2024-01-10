@@ -1,3 +1,5 @@
+# SPDX-FileCopyrightText: 2023 kota Yoshiba
+# SPDX-License-Identifier: BSD-3-clause
 #!/bin/bash
 
 dir=~

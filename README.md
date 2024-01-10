@@ -1,14 +1,13 @@
 # mypkg
 
-ロボットシステム学講義用のリポジトリ
+このリポジトリは2023年度ロボットシステム学講義用のリポジトリです。
+ノード間で通信を行うROS2のパッケージです。
 
 ![test](https://github.com/ishida777/mypkg/actions/workflows/test.yml/badge.svg)
 
 ## talkerとlistenerについて
 ### talker
-実行すると0.5秒ごとに数字を0から一つずつ足し、メッセージで結果を表示する
-
-メッセージはcountupというトピックを通して送信される
+実行すると0.5秒ごとに数字を0から一つずつ足し、Int16型のメッセージをcountupというトピックを通じてパブリッシュする
 
 * 使用方法
 ```
@@ -35,7 +34,7 @@ $ ros2 run mypkg listener
 ```
 
 ### トピック
-16ビットの符号付き整数を使用
+通信の型に、16ビットの符号付き整数を使用
 
 ## talk_listen.launch.pyについて
 talkerとlistenerの二つを同時に実行できる
@@ -69,7 +68,6 @@ ros2 launch mypkg talk_listen.launch.py
 
 ### 著作権
 * このソフトウェアパッケージは、三条項BSDライセンスの下、再頒布および使用が許可されます。
-
-* このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
-* [ryuichiueda/my_slide/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
-* © 2023 KotaYoshiba
+    * このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
+    * [ryuichiueda/my_slide/robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+    * © 2023 KotaYoshiba
