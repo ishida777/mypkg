@@ -1,9 +1,9 @@
 # mypkg
 
-このリポジトリは2023年度ロボットシステム学講義用のリポジトリです。
-ノード間で通信を行うROS2のパッケージです。
-
 ![test](https://github.com/ishida777/mypkg/actions/workflows/test.yml/badge.svg)
+
+このリポジトリは2023年度ロボットシステム学講義用のリポジトリです。
+talkerとlistenerの二つのノード間で通信を行うROS2のパッケージです。
 
 ## talkerとlistenerについて
 ### talker
