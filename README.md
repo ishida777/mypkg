@@ -61,7 +61,7 @@ ros2 launch mypkg talk_listen.launch.py
 ## 動作環境
 ### 必要なソフトウェア
 * Python
-* テスト済み: 3.7 ~ 3.10
+    * テスト済み: 3.7 ~ 3.10
 
 ## テスト環境
 * ubuntu22.04
