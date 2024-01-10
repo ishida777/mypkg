@@ -2,7 +2,8 @@
 
 ![test](https://github.com/ishida777/mypkg/actions/workflows/test.yml/badge.svg)
 
-このリポジトリは2023年度ロボットシステム学講義用のリポジトリです。
+このリポジトリは2023年度ロボットシステム学講義で作成、使用したリポジトリです。
+
 talkerとlistenerの二つのノード間で通信を行うROS2のパッケージです。
 
 ## talkerとlistenerについて
