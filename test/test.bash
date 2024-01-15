@@ -1,8 +1,9 @@
-# SPDX-FileCopyrightText: 2023 kota Yoshiba
+# SPDX-FileCopyrightText: 2023 kotaYoshiba
 # SPDX-License-Identifier: BSD-3-clause
 #!/bin/bash
 
 dir=~
+
 [ "$1" != "" ] && dir="$1"
 
 cd $dir/ros2_ws

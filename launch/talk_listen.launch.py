@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2023 kota Yoshiba
+# SPDX-FileCopyrightText: 2023 kotaYoshiba
 # SPDX-License-Identifier: BSD-3-clause
 import launch
 import launch.actions
